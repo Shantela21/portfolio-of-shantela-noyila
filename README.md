@@ -1,141 +1,106 @@
-# React + TypeScript + Vite
+# 🌟 Portfolio - SS Noyila
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio website, built with **React**, **TypeScript**, and **Vite**.  
+This project showcases my skills, experience, and projects as a software developer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+- **Frontend Framework:** React 19 (with TypeScript)
+- **Routing:** React Router DOM v7
+- **Build Tool:** Vite
+- **Styling:** Custom CSS
+- **Linting & Quality:** ESLint + TypeScript ESLint
+- **Development Environment:** Node.js + npm
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📁 Project Structure
+```bash
+portfolio-ss-noyila/
+├── src/
+│ ├── components/
+│ │ ├── Navbar.tsx
+│ │ ├── Hero.tsx
+│ │ ├── About.tsx
+│ │ ├── Skills.tsx
+│ │ ├── Projects.tsx
+│ │ ├── Contact.tsx
+│ │ └── Footer.tsx
+│ ├── App.tsx
+│ ├── main.tsx
+│ └── App.css
+├── public/
+│ └── assets/
+├── package.json
+├── tsconfig.json
+├── index.html
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 💡 Features
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- 📜 **Hero Section:** Eye-catching introduction with name, role, and call to action  
+- 👩‍💻 **About Section:** Overview of my background and experience  
+- ⚙️ **Skills Section:** Lists of core technologies and tools  
+- 🧩 **Projects Section:** Highlights of my best work with links and descriptions  
+- ✉️ **Contact Section:** Simple contact form or links to reach me  
+- ⚡ **Responsive Design:** Works across desktop, tablet, and mobile devices  
+
+---
+
+## 🛠️ Installation & Setup
+
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/Shantela21/portfolio-ss-noyila.git
 ```
-# Portfolio of Shantela Noyila
-
-A modern, responsive portfolio website built with React, TypeScript, and Vite featuring a clean black and white design.
-
-## Features
-- 🎨 Modern black and white minimalist design
-- 📱 Fully responsive layout
-- ⚡ Fast performance with Vite
-- 💼 Showcase of skills, projects, and experience
-- 📧 Contact form
-- 📄 CV download functionality
-
-## Setup Instructions
-
-### 1. Install Dependencies
+```
+cd portfolio-ss-noyila
+```
+## Install dependencies:
 ```bash
 npm install
 ```
 
-### 2. CV File
-Your CV is already located in `src/assets/Shantela-Noyila-Resume (1).pdf`
-
-The download buttons automatically link to this file.
-
-### 3. Run Development Server
-```bash
+## Run the development server:
+```
 npm run dev
 ```
 
-### 4. Build for Production
-```bash
+## Build for production:
+```
 npm run build
 ```
 
-## Project Structure
+## Preview the production build:
 ```
-portfolio-ss-noyila/
-├── src/
-│   ├── assets/
-│   │   └── Shantela-Noyila-Resume (1).pdf  (Your CV)
-│   ├── components/
-│   │   ├── Hero.tsx
-│   │   ├── About.tsx
-│   │   ├── Skills.tsx
-│   │   ├── Projects.tsx
-│   │   ├── Contact.tsx
-│   │   ├── Navbar.tsx
-│   │   └── Footer.tsx
-│   ├── App.tsx
-│   ├── App.css  (All styling in one file)
-│   └── main.tsx
-└── package.json
+npm run preview
+```
+## 🧰 Available Scripts
+```
+| Command           | Description                                  |
+| ----------------- | -------------------------------------------- |
+| `npm run dev`     | Runs the app in development mode             |
+| `npm run build`   | Builds the app for production                |
+| `npm run preview` | Previews the production build                |
+| `npm run lint`    | Runs ESLint to check for code quality issues |
 ```
 
-## Technologies Used
-- React 19
-- TypeScript
-- Vite
-- CSS3
+## 📬 Contact
 
-## Contact
-- Email: shantelaslie@gmail.com
-- LinkedIn: [Shantela Noyila](https://www.linkedin.com/in/shantela-noyila-1864b2212)
-- GitHub: [@Shantela21](https://github.com/Shantela21)
+Developer: SS Noyila
 
----
+Email: shantelaslie@gmail.com
 
-# portfolio-of-shantela-noyila
+LinkedIn:(https://www.linkedin.com/in/shantela-noyila-1864b2212/)
+
+Portfolio: (https://shantela-noyilas-portfolio.onrender.com)
+
+## ✨ Acknowledgements
+
+Built with ❤️ using **React**, **TypeScript**, and **Vite**.
