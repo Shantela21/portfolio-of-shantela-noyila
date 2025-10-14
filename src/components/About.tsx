@@ -1,3 +1,4 @@
+import cvFile from '../assets/Shantela-Noyila-Resume (1).pdf';
 
 const About = () => {
   return (
@@ -21,6 +22,11 @@ const About = () => {
               <strong>Location:</strong> Pietermaritzburg, South Africa<br/>
               <strong>Education:</strong> Diploma in ICT: Business Analysis, Durban University of Technology (2022-2024)
             </p>
+            <div className="about-cv-btn">
+              <a href={cvFile} download="Shantela_Noyila_CV.pdf" className="cv-download-btn">
+                📄 Download Full CV
+              </a>
+            </div>
           </div>
           <div className="about-stats">
             <div className="stat-card">

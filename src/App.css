@@ -192,6 +192,18 @@
   transform: translateY(-3px);
 }
 
+.btn-download {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-download:hover {
+  background: white;
+  color: black;
+  transform: translateY(-3px);
+}
+
 .hero-scroll {
   position: absolute;
   bottom: 2rem;
@@ -297,6 +309,30 @@
   color: white;
   font-weight: 500;
   opacity: 0.9;
+}
+
+.about-cv-btn {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.cv-download-btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid black;
+}
+
+.cv-download-btn:hover {
+  background: white;
+  color: black;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Skills */

@@ -1,3 +1,4 @@
+import cvFile from '../assets/Shantela-Noyila-Resume (1).pdf';
 
 const Hero = () => {
   return (
@@ -13,6 +14,7 @@ const Hero = () => {
         <div className="hero-buttons">
           <a href="#projects" className="btn btn-primary">View My Work</a>
           <a href="#contact" className="btn btn-secondary">Get In Touch</a>
+          <a href={cvFile} download="Shantela_Noyila_CV.pdf" className="btn btn-download">Download CV</a>
         </div>
       </div>
       <div className="hero-scroll">

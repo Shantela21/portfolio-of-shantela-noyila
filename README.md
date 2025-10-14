@@ -71,4 +71,71 @@ export default defineConfig([
   },
 ])
 ```
+# Portfolio of Shantela Noyila
+
+A modern, responsive portfolio website built with React, TypeScript, and Vite featuring a clean black and white design.
+
+## Features
+- 🎨 Modern black and white minimalist design
+- 📱 Fully responsive layout
+- ⚡ Fast performance with Vite
+- 💼 Showcase of skills, projects, and experience
+- 📧 Contact form
+- 📄 CV download functionality
+
+## Setup Instructions
+
+### 1. Install Dependencies
+```bash
+npm install
+```
+
+### 2. CV File
+Your CV is already located in `src/assets/Shantela-Noyila-Resume (1).pdf`
+
+The download buttons automatically link to this file.
+
+### 3. Run Development Server
+```bash
+npm run dev
+```
+
+### 4. Build for Production
+```bash
+npm run build
+```
+
+## Project Structure
+```
+portfolio-ss-noyila/
+├── src/
+│   ├── assets/
+│   │   └── Shantela-Noyila-Resume (1).pdf  (Your CV)
+│   ├── components/
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Navbar.tsx
+│   │   └── Footer.tsx
+│   ├── App.tsx
+│   ├── App.css  (All styling in one file)
+│   └── main.tsx
+└── package.json
+```
+
+## Technologies Used
+- React 19
+- TypeScript
+- Vite
+- CSS3
+
+## Contact
+- Email: shantelaslie@gmail.com
+- LinkedIn: [Shantela Noyila](https://www.linkedin.com/in/shantela-noyila-1864b2212)
+- GitHub: [@Shantela21](https://github.com/Shantela21)
+
+---
+
 # portfolio-of-shantela-noyila
