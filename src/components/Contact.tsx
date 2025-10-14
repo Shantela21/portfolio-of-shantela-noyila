@@ -12,18 +12,26 @@ const Contact = () => {
               Whether you have a question or just want to say hi, feel free to reach out!
             </p>
             <div className="contact-methods">
-              <a href="mailto:shantela.noyila@example.com" className="contact-method">
+              <a href="mailto:shantelaslie@gmail.com" className="contact-method">
                 <span className="icon">✉️</span>
-                <span>shantela.noyila@example.com</span>
+                <span>shantelaslie@gmail.com</span>
               </a>
-              <a href="https://www.linkedin.com/in/shantela-noyila-1864b2212/" target="_blank" rel="noopener noreferrer" className="contact-method">
+              <a href="tel:+27638998411" className="contact-method">
+                <span className="icon">📱</span>
+                <span>063 899 8411</span>
+              </a>
+              <a href="https://www.linkedin.com/in/shantela-noyila-1864b2212" target="_blank" rel="noopener noreferrer" className="contact-method">
                 <span className="icon">💼</span>
-                <span>LinkedIn</span>
+                <span>LinkedIn Profile</span>
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="contact-method">
+              <a href="https://github.com/Shantela21" target="_blank" rel="noopener noreferrer" className="contact-method">
                 <span className="icon">💻</span>
-                <span>GitHub</span>
+                <span>GitHub - Shantela21</span>
               </a>
+              <div className="contact-method">
+                <span className="icon">📍</span>
+                <span>Pietermaritzburg, South Africa</span>
+              </div>
             </div>
           </div>
           <form className="contact-form">

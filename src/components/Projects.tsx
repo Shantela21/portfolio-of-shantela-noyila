@@ -1,30 +1,30 @@
-
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with payment integration, user authentication, and admin dashboard.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      link: '#'
+      title: 'GitHub Repositories',
+      description: 'Open-source projects and code samples showcasing problem-solving skills and collaborative development.',
+      technologies: ['Git', 'GitHub', 'Version Control', 'Code Reviews'],
+      link: 'https://github.com/Shantela21'
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative task management tool with real-time updates and team collaboration features.',
-      technologies: ['React', 'TypeScript', 'Firebase', 'Tailwind CSS'],
-      link: '#'
+      title: 'Weather App',
+      description: 'A responsive web application that fetches and displays real-time weather data for any location using a public API.',
+      technologies: ['React.js', 'CSS', 'API Integration', 'Responsive Design'],
+      link: 'https://github.com/Shantela21/task-4-weather-application'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'Real-time weather application with interactive maps and detailed forecasts using external APIs.',
-      technologies: ['React', 'REST API', 'Chart.js', 'CSS3'],
-      link: '#'
+      title: 'Eon chatbot GUI',
+      description: 'An AI-powered chatbot that provides intelligent responses and assistance using natural language processing.',
+      technologies: ['JavaScript', 'AI', 'NLP', 'APIs'],
+      link: 'https://github.com/Shantela21/ollama-ai-react-gui.git'
     },
     {
-      title: 'Social Media App',
-      description: 'Feature-rich social networking platform with posts, comments, likes, and user profiles.',
-      technologies: ['React', 'GraphQL', 'PostgreSQL', 'AWS'],
-      link: '#'
+      title: 'Shopping List App',
+      description: 'A simple and intuitive app to create, manage, and share shopping lists with real-time collaboration features.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design', 'TypeScript'],
+      link: 'https://github.com/Shantela21/shopping-list-app-.git'
     }
+    
   ];
 
   return (

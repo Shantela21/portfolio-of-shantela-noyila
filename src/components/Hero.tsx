@@ -6,9 +6,9 @@ const Hero = () => {
         <h1 className="hero-title">
           Hi, I'm <span className="highlight">Shantela Noyila</span>
         </h1>
-        <p className="hero-subtitle">Full Stack Developer | Creative Problem Solver</p>
+        <p className="hero-subtitle">Full Stack Developer</p>
         <p className="hero-description">
-          I build exceptional digital experiences that make people's lives easier
+          Passionate about turning ideas into functional, visually appealing digital experiences
         </p>
         <div className="hero-buttons">
           <a href="#projects" className="btn btn-primary">View My Work</a>

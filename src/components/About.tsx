@@ -7,31 +7,33 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a passionate developer who loves creating beautiful, functional web applications.
-              With a strong foundation in both front-end and back-end technologies, I bring ideas
-              to life through clean code and intuitive user experiences.
+              Driven and ambitious IT professional and Full Stack Development Trainee at mLab with a solid 
+              foundation in business analysis, networking, and web development. I hold a Diploma in ICT 
+              Business Analysis and certifications in Cisco Networking and Cybersecurity.
             </p>
             <p>
-              When I'm not coding, you can find me exploring new technologies, contributing to
-              open-source projects, or sharing knowledge with the developer community.
+              I bring expertise in analyzing business needs, designing technology-driven solutions, and 
+              developing clean, user-friendly, and responsive web applications. As a quick learner and 
+              collaborative team player, I'm committed to continuous growth while contributing to 
+              organizational success.
             </p>
             <p>
-              I believe in continuous learning and always strive to stay updated with the latest
-              trends and best practices in web development.
+              <strong>Location:</strong> Pietermaritzburg, South Africa<br/>
+              <strong>Education:</strong> Diploma in ICT: Business Analysis, Durban University of Technology (2022-2024)
             </p>
           </div>
           <div className="about-stats">
             <div className="stat-card">
-              <h3>5+</h3>
-              <p>Years Experience</p>
+              <h3>2024</h3>
+              <p>Diploma Graduate</p>
             </div>
             <div className="stat-card">
-              <h3>50+</h3>
-              <p>Projects Completed</p>
+              <h3>8+</h3>
+              <p>Certifications</p>
             </div>
             <div className="stat-card">
-              <h3>100%</h3>
-              <p>Client Satisfaction</p>
+              <h3>mLab</h3>
+              <p>Current Trainee</p>
             </div>
           </div>
         </div>
