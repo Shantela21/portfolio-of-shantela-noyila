@@ -1,3 +1,5 @@
+<img src="https://socialify.git.ci/Shantela21/portfolio-of-shantela-noyila/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="portfolio-of-shantela-noyila" width="640" height="320" />
+
 # 🌟 Portfolio - SS Noyila
 
 Welcome to my portfolio website, built with **React**, **TypeScript**, and **Vite**.  

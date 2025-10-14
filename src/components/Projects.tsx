@@ -16,7 +16,7 @@ const Projects = () => {
       title: 'Eon chatbot GUI',
       description: 'An AI-powered chatbot that provides intelligent responses and assistance using natural language processing.',
       technologies: ['JavaScript', 'AI', 'NLP', 'APIs'],
-      link: 'https://github.com/Shantela21/ollama-ai-react-gui.git'
+      link: 'https://eon-chatbot.onrender.com'
     },
     {
       title: 'Shopping List App',
