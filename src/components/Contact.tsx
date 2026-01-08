@@ -20,7 +20,7 @@ const Contact = () => {
                 <span className="icon">📱</span>
                 <span>063 899 8411</span>
               </a>
-              <a href="https://www.linkedin.com/in/shantela-noyila-1864b2212" target="_blank" rel="noopener noreferrer" className="contact-method">
+              <a href="https://www.linkedin.com/in/shantela-noyila-1864b2212/" target="_blank" rel="noopener noreferrer" className="contact-method">
                 <span className="icon">💼</span>
                 <span>LinkedIn Profile</span>
               </a>

@@ -7,17 +7,26 @@ const About = () => {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <div className="about-text">
-            <p>
-              Driven and ambitious IT professional and Full Stack Development Trainee at mLab with a solid 
-              foundation in business analysis, networking, and web development. I hold a Diploma in ICT 
-              Business Analysis and certifications in Cisco Networking and Cybersecurity.
-            </p>
-            <p>
-              I bring expertise in analyzing business needs, designing technology-driven solutions, and 
-              developing clean, user-friendly, and responsive web applications. As a quick learner and 
-              collaborative team player, I'm committed to continuous growth while contributing to 
-              organizational success.
-            </p>
+            <h3 className="what-i-do-title">What I Do</h3>
+            <div className="what-i-do">
+              <div className="service-item">
+                <h4>🌐 Full Stack Web Development</h4>
+                <p>Building responsive, user-friendly web applications from frontend to backend using modern technologies like React, JavaScript, TypeScript, and CSS.</p>
+              </div>
+              <div className="service-item">
+                <h4>📊 Business Analysis</h4>
+                <p>Analyzing business requirements and designing technology-driven solutions that align with organizational goals and user needs.</p>
+              </div>
+              <div className="service-item">
+                <h4>🔧 API Integration & Development</h4>
+                <p>Creating and integrating APIs to enable seamless data flow between applications and third-party services.</p>
+              </div>
+              <div className="service-item">
+                <h4>🛡️ Network & Cybersecurity</h4>
+                <p>Implementing security best practices and network solutions to protect digital assets and ensure system reliability.</p>
+              </div>
+            </div>
+            
             <p>
               <strong>Location:</strong> Pietermaritzburg, South Africa<br/>
               <strong>Education:</strong> Diploma in ICT: Business Analysis, Durban University of Technology (2022-2024)
@@ -39,7 +48,8 @@ const About = () => {
             </div>
             <div className="stat-card">
               <h3>mLab</h3>
-              <p>Current Trainee</p>
+              <p>Apprenticeship</p>
+              <p>Mobile and Web Developer</p>
             </div>
           </div>
         </div>
