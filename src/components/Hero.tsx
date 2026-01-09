@@ -1,4 +1,4 @@
-import cvFile from '../assets/Shantela-Noyila-Resume (1).pdf';
+import cvFile from '../assets/Shantela-Noyila-Resume (2).pdf';
 
 const Hero = () => {
   return (

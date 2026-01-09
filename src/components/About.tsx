@@ -1,4 +1,4 @@
-import cvFile from '../assets/Shantela-Noyila-Resume (1).pdf';
+import cvFile from "../assets/Shantela-Noyila-Resume (2).pdf";
 
 const About = () => {
   return (
@@ -11,28 +11,48 @@ const About = () => {
             <div className="what-i-do">
               <div className="service-item">
                 <h4>🌐 Full Stack Web Development</h4>
-                <p>Building responsive, user-friendly web applications from frontend to backend using modern technologies like React, JavaScript, TypeScript, and CSS.</p>
+                <p>
+                  Building responsive, user-friendly web applications from
+                  frontend to backend using modern technologies like React,
+                  JavaScript, TypeScript, and CSS.
+                </p>
               </div>
               <div className="service-item">
                 <h4>📊 Business Analysis</h4>
-                <p>Analyzing business requirements and designing technology-driven solutions that align with organizational goals and user needs.</p>
+                <p>
+                  Analyzing business requirements and designing
+                  technology-driven solutions that align with organizational
+                  goals and user needs.
+                </p>
               </div>
               <div className="service-item">
                 <h4>🔧 API Integration & Development</h4>
-                <p>Creating and integrating APIs to enable seamless data flow between applications and third-party services.</p>
+                <p>
+                  Creating and integrating APIs to enable seamless data flow
+                  between applications and third-party services.
+                </p>
               </div>
               <div className="service-item">
                 <h4>🛡️ Network & Cybersecurity</h4>
-                <p>Implementing security best practices and network solutions to protect digital assets and ensure system reliability.</p>
+                <p>
+                  Implementing security best practices and network solutions to
+                  protect digital assets and ensure system reliability.
+                </p>
               </div>
             </div>
-            
+
             <p>
-              <strong>Location:</strong> Pietermaritzburg, South Africa<br/>
-              <strong>Education:</strong> Diploma in ICT: Business Analysis, Durban University of Technology (2022-2024)
+              <strong>Location:</strong> Pietermaritzburg, South Africa
+              <br />
+              <strong>Education:</strong> Diploma in ICT: Business Analysis,
+              Durban University of Technology (2022-2024)
             </p>
             <div className="about-cv-btn">
-              <a href={cvFile} download="Shantela_Noyila_CV.pdf" className="cv-download-btn">
+              <a
+                href={cvFile}
+                download="Shantela_Noyila_CV.pdf"
+                className="cv-download-btn"
+              >
                 📄 Download Full CV
               </a>
             </div>
