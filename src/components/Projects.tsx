@@ -14,7 +14,7 @@ const Projects = () => {
       description:
         "A web-based audio recording application that allows users to record, save, and manage audio files directly in the browser with high-quality sound capture.",
       technologies: ["JavaScript", "Web Audio API", "MediaRecorder", "Blob Storage"],
-      link: "https://github.com/Shantela21/audio-recorder",
+      link: "https://audio-recorder-pjk2.onrender.com/",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYyagBB_gwNg0jsCYYc1dhA1yD5IeGl-w7Wg&s",
     },
