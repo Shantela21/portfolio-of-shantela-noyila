@@ -41,7 +41,7 @@ const Projects = () => {
       description:
         "A responsive web application that fetches and displays real-time weather data for any location using a public API.",
       technologies: ["React.js", "CSS", "API Integration", "Responsive Design"],
-      link: "https://github.com/Shantela21/task-4-weather-application",
+      link: "https://weather-application-g205.onrender.com/ ",
       image:
         "https://play-lh.googleusercontent.com/BbSRwQ7ZrFnQP-MJL-jWbmA49C32TbMsDg7jnE7I6N3NqXnjK0KFTG0eR8mvcdsBig=w526-h296-rw",
     },
@@ -65,7 +65,7 @@ const Projects = () => {
         "Responsive Design",
         "TypeScript",
       ],
-      link: "https://github.com/Shantela21/shopping-list-app-.git",
+      link: "https://shopping-list-app-e72q.onrender.com/",
       image:
         "https://cdn.dribbble.com/userupload/24556951/file/original-1e1645d958a79ee6a8b663c5cd0de520.png?resize=400x0",
     },
