@@ -4,6 +4,8 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Analytics from './components/Analytics'
+import CMS from './components/CMS'
 import Footer from './components/Footer'
 import './App.css'
 
@@ -16,6 +18,8 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Analytics />
+      <CMS />
       <Footer />
     </div>
   )

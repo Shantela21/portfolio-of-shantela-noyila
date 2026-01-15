@@ -3,13 +3,31 @@ import { useState, useEffect } from 'react';
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [showAnalytics, setShowAnalytics] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
 
+    // Check if analytics has real data
+    const checkAnalyticsData = async () => {
+      try {
+        const response = await fetch('/api/analytics');
+        if (response.ok) {
+          const data = await response.json();
+          const hasData = data.pageViews > 0 || data.uniqueVisitors > 0;
+          setShowAnalytics(hasData);
+        }
+      } catch (error) {
+        // No analytics data available
+        setShowAnalytics(false);
+      }
+    };
+
     window.addEventListener('scroll', handleScroll);
+    checkAnalyticsData();
+    
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -18,7 +36,9 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'Contact', href: '#contact' },
+    ...(showAnalytics ? [{ name: 'Analytics', href: '#analytics' }] : []),
+    { name: 'CMS', href: '#cms' }
   ];
 
   const handleLinkClick = () => {

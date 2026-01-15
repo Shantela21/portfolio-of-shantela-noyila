@@ -6,9 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shantela Noyila | Portfolio</title>
     <meta name="description" content="Portfolio of Shantela Noyila - Full Stack Developer from Pietermaritzburg, South Africa. Specializing in React, TypeScript, Node.js, and responsive web design. mLab Trainee with Diploma in ICT Business Analysis." />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Register Service Worker
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => {
+              console.log('SW registered: ', registration);
+            })
+            .catch(registrationError => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
   </body>
 </html>
